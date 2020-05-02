@@ -1,0 +1,35 @@
+/*=======================================================
+			PRELOADER:
+========================================================*/
+
+.preloader-holder {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(jdhbk.jpeg);
+    background-size: 100%;
+    z-index: 100000;
+}
+
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px 0 0 -56px;
+    width: 112px;
+    height: 70px;
+    *zoom: 1;
+}
+
+.loading:before,
+.loading:after {
+    display: table;
+    content: "";
+}
+
+.loading:after {
+    clear: both;
+}

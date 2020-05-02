@@ -1,0 +1,137 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+      "rewrites": [{
+          "source": "/timestamp",
+          "function": "app"
+      },{
+        "source": "/signup",
+          "function": "app"
+      },{
+        "source": "/login",
+          "function": "app"
+      },{
+        "source": "/sendEmail",
+          "function": "app"
+      },{
+        "source": "/test",
+          "function": "app"
+      },{
+        "source": "/getprice",
+          "function": "app"
+      },{
+        "source": "/changePassword",
+          "function": "app"
+      },{
+        "source": "/checktoken",
+          "function": "app"
+      },{
+        "source": "/getimage",
+          "function": "app"
+      },{
+        "source": "/addvm",
+          "function": "app"
+      },{
+        "source": "/price/getprice",
+          "function": "app"
+      },{
+        "source": "/price/pricefromdb",
+          "function": "app"
+      },{
+        "source": "/user/login",
+          "function": "app"
+      },{
+        "source": "/user/signup",
+          "function": "app"
+      },{
+        "source": "/user/sendemail",
+          "function": "app"
+      },{
+        "source": "/user/changepassword",
+          "function": "app"
+      },{
+        "source": "/vm/addvm",
+          "function": "app"
+      },{
+        "source": "/vm/deletevm",
+          "function": "app"
+      },{
+        "source": "/vm/getallvm",
+          "function": "app"
+      },{
+        "source": "/vm/updatevm",
+          "function": "app"
+      },{
+        "source": "/vm/getallproduct",
+          "function": "app"
+      },{
+        "source": "/vm/addproduct",
+          "function": "app"
+      },{
+        "source": "/vm/updateproduct",
+          "function": "app"
+      },{
+        "source": "/vm/pie",
+          "function": "app"
+      },{
+        "source": "/vm/vminfo2",
+          "function": "app"
+      },{
+        "source": "/vm/vminfo",
+          "function": "app"
+      },{
+        "source": "/vm/updatetransaction",
+          "function": "app"
+      },{
+        "source": "/vm/getstock",
+          "function": "app"
+      },{
+        "source": "/vm/deleteproduct",
+          "function": "app"
+      },{
+        "source": "/vm/order",
+          "function": "app"
+      },{
+        "source": "/vm/restock",
+          "function": "app"
+      },{
+        "source": "/pdf/create-pdf",
+          "function": "app"
+      },{
+        "source": "/pdf/fetch-pdf",
+          "function": "app"
+      },{
+        "source": "/analysis/getsevendaysitemsales",
+          "function": "app"
+      },{
+        "source": "/analysis/recentsevendayscompanymonthsale",
+          "function": "app"
+      },{
+        "source": "/analysis/recentsevendayscompanysale",
+          "function": "app"
+      },{
+        "source": "/analysis/getyearprofitbyuser",
+          "function": "app"
+      },{
+        "source": "/analysis/getsevendaysvmsales",
+          "function": "app"
+      },{
+        "source": "/analysis/getyearprofitbyuser",
+          "function": "app"
+      },{
+        "source": "/analysis/similar",
+          "function": "app"
+      },{
+        "source": "/updateuser",
+          "function": "app"
+      }],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+.Big{
+    margin-top: 1%;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.title1{
+    margin-left: 1em;
+    font-size: large;
+    text-align: center;
+}
+.title2{
+    margin-right: 10%;
+}
+
+.card-text{
+    font-size: 2em;
+}
