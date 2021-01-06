@@ -7,7 +7,7 @@
     "@ishawnwang/withunmounted": "^1.0.1",
     "@material-ui/core": "^4.9.1",
     "@material-ui/icons": "^4.9.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "4.3.1",
     "chart.js": "2.7.2",
     "classnames": "^2.2.6",
